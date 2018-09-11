@@ -2,7 +2,7 @@
 
 
 ## **:paperclip: Artefatos**
- * [:page_facing_up: Estrutura Organizacional e de Trabalho][Estrutura Organizacional e de Trabalho]
+ * [:page_facing_up: Estrutura Organizacional e de Trabalho]()
  * [:page_facing_up: Políticas de Garantia da Qualidade]()
    * [:clipboard: Políticas de Não Conformidades]()
    * [:clipboard: Políticas de Resultados da Auditoria]()
