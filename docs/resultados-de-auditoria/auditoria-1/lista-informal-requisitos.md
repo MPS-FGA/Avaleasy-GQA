@@ -15,7 +15,7 @@ Halê Valente Silva
 
 #### 1.3 Técnicas
 
-- Auditoria
+- Checklist
 
 - Entrevista
 
