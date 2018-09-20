@@ -2,13 +2,13 @@
 
 #### 1.1 Auditor
 
-Nicácio Arruda Bezerra Neto
+- Nicácio Arruda Bezerra Neto
 
-Halê Valente Silva
+- Halê Valente Silva
 
 #### 1.2 Data da Auditoria
 
-19/09/2018
+- 19/09/2018
 
 #### 1.3 Técnicas
 
@@ -38,55 +38,58 @@ Halê Valente Silva
                     <td align="center">X</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>O Backlog da release pode ser visualizado em seu respectivo board no ZenHub:  https://github.com/MPS-FGA/Avaleasy-app/issues#boards?repos=146913707</td>
   </tr>
   <tr>
     <td>O backlog da sprint existe?</td>
     <td align="center">X</td>
     <td></td>
     <td></td>
+    <td>O Backlog da sprint pode ser visualizado em seu respectivo board no ZenHub:  https://github.com/MPS-FGA/Avaleasy-app/issues#boards?repos=146913707</td>
   </tr>
   <tr>
-    <td>O backlog da sprint contém as histórias de usuário da sprint em questão?</td>
+    <td>O backlog da sprint contém as estórias de usuário da sprint em questão?</td>
     <td align="center">X</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>As estórias estão no board do backlog da sprint e podem ser visualizadas no ZenHub: https://github.com/MPS-FGA/Avaleasy-app/issues#boards?repos=146913707</td>
   </tr>
   <tr>
-    <td>As histórias de usuário são escritas em voz de usuário?</td>
+    <td>As estórias de usuário são escritas em voz de usuário?</td>
     <td align="center">X</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>As estórias estão descritas em voz de usuário e estão descritas em issues no repositório: https://github.com/MPS-FGA/Avaleasy-app/issues/</td>
   </tr>
   <tr>
-    <td>As histórias de usuário possuem critérios de aceitação?</td>
+    <td>As estórias de usuário possuem critérios de aceitação?</td>
     <td align="center">X</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>Estão descritas no repositório, como no exemplo:
+    https://github.com/MPS-FGA/Avaleasy-app/issues/19</td>
   </tr>
   <tr>
-    <td> As histórias de usuário foram pontuadas?</td>
+    <td> As estórias de usuário foram pontuadas?</td>
     <td align="center">X</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>Todas as estórias foram pontuadas e sua pontuação pode ser consultada no repositório</td>
   </tr>
   <tr>
-    <td>As histórias de usuário são referentes as features levantadas?</td>
+    <td>As estórias de usuário são referentes as features levantadas?</td>
     <td align="center">X</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>Todas as estórias mantém a rastreabilidade referente a suas features, como no exemplo:
+    https://github.com/MPS-FGA/Avaleasy-app/issues/19</td>
   </tr>
   <tr>
-    <td>As histórias de usuário foram alocadas aos integrantes do time?</td>
+    <td>As estórias de usuário foram alocadas aos integrantes do time?</td>
     <td align="center">X</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>As estórias são assinadas no repositório pelos membros que irão desenvolver</td>
   </tr>
 </table>
 
