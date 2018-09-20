@@ -5,9 +5,9 @@ Lista informal de requisitos
 
 #### 1.1 Auditor
 
-Nicácio Arruda Bezerra Neto
+- Nicácio Arruda Bezerra Neto
 
-Halê Valente Silva
+- Halê Valente Silva
 
 #### 1.2 Data da Auditoria
 
@@ -41,15 +41,15 @@ Halê Valente Silva
     <td rowspan="8">A Lista informal de requisitos</td>
     <td>X</td>
     <td align="center"></td>
+    <td>Foi utilizada a lista de requisitos que o próprio cliente havia escrito, e marcado uma reunião para discuti-la</td>
     <td></td>
-    <td> </td>
   </tr>
   <tr>
     <td>Os Requisitos estão escritos em linguagem informal nessa lista?</td>
     <td>X</td>
-    <td align="center">  </td>
-    <td>  </td>
-    <td>  </td>
+    <td align="center"></td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
