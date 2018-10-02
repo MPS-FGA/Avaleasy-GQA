@@ -2,25 +2,28 @@
 
 ### 1.1 Auditor
 
+**Auditor**: Nicácio Arruda Bezerra Neto
+
+**Auditor**: Halê Valente Silva
+
 ### 1.2 Data da Auditoria
 
+19/09/2018
 
-### 1.3 Lista das técnicas utilizadas durante a auditoria, assim como apresentação dos templates correspondentes de cada uma.
+
+#### 1.3 Técnicas Utilizadas
 
 * Checklist
 * Entrevista
 
 ## 2 Resultados da Auditoria
 
-
-## 3 Técnicas
-
-### Checklist
+### 2.1 Checklist
 
 <table>
   <tr>
     <th>Artefato/Requisito</th>
-    <th>Oque Verificar? (Sugestões)</th>
+    <th>Oque Verificar?</th>
     <th>Conformidade</th>
     <th>Não Conformidade</th>
     <th>Observação</th>
@@ -29,28 +32,28 @@
   <tr>
     <td>Existe o backlog?</td>
     <td rowspan="4">Backlog Validado</td>
-    <td></td>
+    <td>X</td>
     <td></td>
     <td></td>
     <td>Backlog do Produto</td>
   </tr>
   <tr>
     <td>O backlog foi derivado a partir da lista de necessidades do cliente?</td>
-    <td></td>
+    <td>X</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>O backlog foi validado com o cliente?</td>
-    <td></td>
+    <td>X</td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
     <td>O backlog foi aprovado?</td>
-    <td></td>
+    <td>X</td>
     <td></td>
     <td></td>
     <td></td>
@@ -59,15 +62,15 @@
 
 ### Entrevista
 
-Entrevistado:
+**Entrevistado**: Iago Vasconcelos
 
 |Pergunta| Sim |Não |
 |:---:|:---:|:---:|
-|Existe o backlog?|| |
-|O backlog foi utilizado?|| |
-|O backlog foi derivado a partir da lista de necessidades do cliente?|| |
-| O backlog foi validado com o cliente?| | |
-|O backlog foi aprovado?|| |
+|Existe o backlog?|X| |
+|O backlog foi utilizado?|X| |
+|O backlog foi derivado a partir da lista de necessidades do cliente?|X| |
+| O backlog foi validado com o cliente?| X | |
+|O backlog foi aprovado?|X| |
 
 
 
