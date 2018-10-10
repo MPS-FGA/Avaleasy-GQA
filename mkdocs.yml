@@ -1,1 +1,45 @@
 site_name: Avaleasy GQA
+
+nav:
+  - Home: index.md
+  - Artefatos:
+    - Estrutura Organizacional e de Trabalho: artefatos/estrutura-organizacional.md
+    - Objetos de Auditoria: artefatos/objetos-de-auditoria.md
+  - Templates:
+    - Não Conformidades: temp/nao-conformidades.md
+    - Issue Não Conformidade: temp/issue-de-nao-conformidade.md
+    - Checklist: temp/checklist.md
+    - Entrevista: temp/entrevista.md
+    - Resultado do Ciclo: temp/resultado-de-ciclo.md
+    - Resultado da Auditoria: temp/resultado-de-auditoria.md
+  - Ferramentas:
+    - Docs-Github: https://github.com/MPS-FGA/Avaleasy-GQA/tree/master/docs
+    - Issues-Github: https://github.com/MPS-FGA/Avaleasy-GQA/issues
+  - Processos:
+    - Fluxo de Trabalho: /
+    - Garantia da Qualidade:
+      - Planejar Auditorias do Ciclo: /
+      - Executar Auditoria: /
+  - Planejamento/Resultado:
+    - Ciclo 1:
+      - Planejamento: planejamento-auditoria/planejamento-auditoria-1.md
+      - Resuldatos:
+        - Backlog: resultados-de-auditoria/auditoria-1/backlog.md
+        - Backlog Refinado: resultados-de-auditoria/auditoria-1/backlog-refinado.md
+        - Backlog Validado: resultados-de-auditoria/auditoria-1/backlog-validado.md
+        - Backlog Sprint: resultados-de-auditoria/auditoria-1/backlog-sprint.md
+        - Backlog Release: resultados-de-auditoria/auditoria-1/backlog-release.md
+        - Backlog Release Refinado: resultados-de-auditoria/auditoria-1/backlog-release-refinado.md
+        - Incremento: resultados-de-auditoria/auditoria-1/incremento.md
+        - Lista Informal Requisitos: resultados-de-auditoria/auditoria-1/lista-informal-requisitos.md
+        - Relatório Retrospectiva: resultados-de-auditoria/auditoria-1/relatorio-retrospectiva.md
+        - Requisitos: resultados-de-auditoria/auditoria-1/requisitos.md
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+
+markdown_extensions:
+  - codehilite
