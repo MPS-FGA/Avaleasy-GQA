@@ -15,6 +15,7 @@
 #### 1.3 Técnicas Utilizadas
 
 * Checklist
+
 ## Resultado da auditoria
 
 <table>
