@@ -3,11 +3,11 @@
 ### 1.1 - Auditor Responsável
 
  - Nicácio Arruda Bezerra Neto
- - Halê Valente Silva
+ - Eduardo Vital
 
 ### 1.2 - Data da Auditoria
 
- - 19/09/2018
+ - 02/10/2018
 
 ### 1.3 - Técnicas Utilizadas
 
