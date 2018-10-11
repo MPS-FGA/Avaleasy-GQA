@@ -43,7 +43,7 @@
     <td>X</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>Podem ser visualizados no repositório da disciplina, https://github.com/MPS-FGA/Avaleasy-app#boards?repos=146913707</td>
   </tr>
   <tr>
     <td>O backlog foi refinado com o cliente?</td>
