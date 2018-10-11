@@ -35,28 +35,28 @@
     <td>X</td>
     <td></td>
     <td></td>
-    <td>Backlog do Produto</td>
+    <td>Pode ser visualizado em seu respectivo board no ZenHub:  https://github.com/MPS-FGA/Avaleasy-app/issues#boards?repos=146913707</td>
   </tr>
   <tr>
     <td>O backlog foi derivado a partir da lista de necessidades do cliente?</td>
     <td>X</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>Pode ser visualizado em seu respectivo board no ZenHub:  https://github.com/MPS-FGA/Avaleasy-app/issues#boards?repos=146913707</td>
   </tr>
   <tr>
     <td>O backlog foi validado com o cliente?</td>
     <td>X</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>Pode ser visualizado em seu respectivo board no ZenHub:  https://github.com/MPS-FGA/Avaleasy-app/issues#boards?repos=146913707</td>
   </tr>
   <tr>
     <td>O backlog foi aprovado?</td>
     <td>X</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>Pode ser visualizado em seu respectivo board no ZenHub:  https://github.com/MPS-FGA/Avaleasy-app/issues#boards?repos=146913707</td>
   </tr>
 </table>
 
