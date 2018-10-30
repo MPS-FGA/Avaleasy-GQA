@@ -24,7 +24,7 @@ nav:
     - Ciclo 1:
       - Avaleasy:
         - Planejamento: planejamento-auditoria/planejamento-auditoria-1-avaleasy.md
-        - Resuldatos:
+        - Resultados:
           - Backlog: resultados-de-auditoria/auditoria-1-avaleasy/backlog.md
           - Backlog Refinado: resultados-de-auditoria/auditoria-1-avaleasy/backlog-refinado.md
           - Backlog Validado: resultados-de-auditoria/auditoria-1-avaleasy/backlog-validado.md
@@ -37,7 +37,7 @@ nav:
           - Requisitos: resultados-de-auditoria/auditoria-1-avaleasy/requisitos.md
       - Grimorio do Mestre:
         - Planejamento: /
-        - Resuldatos:
+        - Resultados:
           - Backlog: /
           - Backlog Refinado: /
           - Backlog Validado: /
@@ -51,7 +51,7 @@ nav:
     - Ciclo 2:
       - Avaleasy:
         - Planejamento: planejamento-auditoria/planejamento-auditoria-1-avaleasy.md
-        - Resuldatos:
+        - Resultados:
           - Backlog: resultados-de-auditoria/auditoria-2-avaleasy/backlog.md
           - Backlog Refinado: resultados-de-auditoria/auditoria-2-avaleasy/backlog-refinado.md
           - Backlog Validado: resultados-de-auditoria/auditoria-2-avaleasy/backlog-validado.md
@@ -64,7 +64,7 @@ nav:
           - Requisitos: resultados-de-auditoria/auditoria-2-avaleasy/requisitos.md
       - Grimorio do Mestre:
         - Planejamento: /
-        - Resuldatos:
+        - Resultados:
           - Backlog: /
           - Backlog Refinado: /
           - Backlog Validado: /
