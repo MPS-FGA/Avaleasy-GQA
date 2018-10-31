@@ -38,16 +38,16 @@ nav:
       - Grimorio do Mestre:
         - Planejamento: /
         - Resultados:
-          - Backlog: /
-          - Backlog Refinado: /
-          - Backlog Validado: /
-          - Backlog Sprint: /
-          - Backlog Release: /
-          - Backlog Release Refinado: /
-          - Incremento: /
-          - Lista Informal Requisitos: /
-          - Relatório Retrospectiva: /
-          - Requisitos: /
+          - Backlog: resultados-de-auditoria/grimorio/auditoria-1-grimorio/backlog.md
+          - Backlog Refinado: resultados-de-auditoria/grimorio/auditoria-1-grimorio/backlog-refinado.md
+          - Backlog Validado: resultados-de-auditoria/grimorio/auditoria-1-grimorio/backlog-validado.md
+          - Backlog Sprint: resultados-de-auditoria/grimorio/auditoria-1-grimorio/backlog-sprint.md
+          - Backlog Release: resultados-de-auditoria/grimorio/auditoria-1-grimorio/backlog-release.md
+          - Backlog Release Refinado: resultados-de-auditoria/grimorio/auditoria-1-grimorio/backlog-release-refinado.md
+          - Incremento: resultados-de-auditoria/grimorio/auditoria-1-grimorio/incremento.md
+          - Lista Informal Requisitos: resultados-de-auditoria/grimorio/auditoria-1-grimorio/lista-informal-requisitos.md
+          - Relatório Retrospectiva: resultados-de-auditoria/grimorio/auditoria-1-grimorio/relatorio-retrospectiva.md
+          - Requisitos: resultados-de-auditoria/grimorio/auditoria-1-grimorio/requisitos.md
     - Ciclo 2:
       - Avaleasy:
         - Planejamento: planejamento-auditoria/planejamento-auditoria-1-avaleasy.md
