@@ -25,16 +25,16 @@ nav:
       - Avaleasy:
         - Planejamento: planejamento-auditoria/planejamento-auditoria-1-avaleasy.md
         - Resultados:
-          - Backlog: resultados-de-auditoria/auditoria-1-avaleasy/backlog.md
-          - Backlog Refinado: resultados-de-auditoria/auditoria-1-avaleasy/backlog-refinado.md
-          - Backlog Validado: resultados-de-auditoria/auditoria-1-avaleasy/backlog-validado.md
-          - Backlog Sprint: resultados-de-auditoria/auditoria-1-avaleasy/backlog-sprint.md
-          - Backlog Release: resultados-de-auditoria/auditoria-1-avaleasy/backlog-release.md
-          - Backlog Release Refinado: resultados-de-auditoria/auditoria-1-avaleasy/backlog-release-refinado.md
-          - Incremento: resultados-de-auditoria/auditoria-1-avaleasy/incremento.md
-          - Lista Informal Requisitos: resultados-de-auditoria/auditoria-1-avaleasy/lista-informal-requisitos.md
-          - Relatório Retrospectiva: resultados-de-auditoria/auditoria-1-avaleasy/relatorio-retrospectiva.md
-          - Requisitos: resultados-de-auditoria/auditoria-1-avaleasy/requisitos.md
+          - Backlog: resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog.md
+          - Backlog Refinado: resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-refinado.md
+          - Backlog Validado: resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-validado.md
+          - Backlog Sprint: resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-sprint.md
+          - Backlog Release: resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-release.md
+          - Backlog Release Refinado: resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-release-refinado.md
+          - Incremento: resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/incremento.md
+          - Lista Informal Requisitos: resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/lista-informal-requisitos.md
+          - Relatório Retrospectiva: resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/relatorio-retrospectiva.md
+          - Requisitos: resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/requisitos.md
       - Grimorio do Mestre:
         - Planejamento: /
         - Resultados:
