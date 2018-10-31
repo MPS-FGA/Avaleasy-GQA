@@ -34,7 +34,7 @@
     <td>X</td>
     <td></td>
     <td></td>
-    <td>Pode ser encontrado em: https://github.com/MPS-FGA/Avaleasy-app#boards?repos=146955480, no board Backlog</td>
+    <td>Pode ser encontrado no repositório da disciplina, no board Backlog</td>
   </tr>
   <tr>
     <td>Os requisitos estão documentados?</td>
@@ -49,14 +49,14 @@
     <td>X</td>
     <td></td>
     <td></td>
-    <td>Pode ser encontrado em: https://github.com/MPS-FGA/Avaleasy-app/issues, entrando em cada issue</td>
+    <td>Pode ser encontrado no repositório da disciplina, entrando em cada issue</td>
   </tr>
  <tr>
     <td>Os épicos foram definidos?</td>
     <td>X</td>
     <td></td>
     <td></td>
-    <td>Pode ser encontrado em: https://github.com/MPS-FGA/Avaleasy-app#boards?repos=146955480, na lista de épicos</td>
+    <td>Pode ser encontrado no repositório da disciplina, na lista de épicos</td>
   </tr>
 
 </table>
