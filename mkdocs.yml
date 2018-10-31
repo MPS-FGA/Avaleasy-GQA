@@ -48,6 +48,7 @@ nav:
           - Lista Informal Requisitos: resultados-de-auditoria/grimorio/auditoria-1-grimorio/lista-informal-requisitos.md
           - Relatório Retrospectiva: resultados-de-auditoria/grimorio/auditoria-1-grimorio/relatorio-retrospectiva.md
           - Requisitos: resultados-de-auditoria/grimorio/auditoria-1-grimorio/requisitos.md
+          - Checklist Medição: resultados-de-auditoria/grimorio/auditoria-1-grimorio/cheklist-medicao.md
     - Ciclo 2:
       - Avaleasy:
         - Planejamento: planejamento-auditoria/planejamento-auditoria-1-avaleasy.md
@@ -62,47 +63,43 @@ nav:
           - Lista Informal Requisitos: resultados-de-auditoria/auditoria-2-avaleasy/lista-informal-requisitos.md
           - Relatório Retrospectiva: resultados-de-auditoria/auditoria-2-avaleasy/relatorio-retrospectiva.md
           - Requisitos: resultados-de-auditoria/auditoria-2-avaleasy/requisitos.md
+          - Checklist Medição: resultados-de-auditoria/grimorio/auditoria-2-grimorio/cheklist-medicao.md
       - Grimorio do Mestre:
         - Planejamento: /
-        - Resultados:
-          - Backlog: /
-          - Backlog Refinado: /
-          - Backlog Validado: /
-          - Backlog Sprint: /
-          - Backlog Release: /
-          - Backlog Release Refinado: /
-          - Incremento: /
-          - Lista Informal Requisitos: /
-          - Relatório Retrospectiva: /
-          - Requisitos: /
+        - Resultados: 
+          - Checklist Medição: resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/cheklist-medicao.md
     - Ciclo 3:
       - Avaleasy:
         - Planejamento: /
         - Resultados: /
       - Grimorio do Mestre:
         - Planejamento: /
-        - Resultados: /
+        - Resultados: 
+          - Checklist Medição: resultados-de-auditoria/grimorio/auditoria-3-grimorio/cheklist-medicao.md
     - Ciclo 4:
       - Avaleasy:
         - Planejamento: /
         - Resultados: /
       - Grimorio do Mestre:
         - Planejamento: /
-        - Resultados: /
+        - Resultados: 
+          - Checklist Medição: resultados-de-auditoria/grimorio/auditoria-4-grimorio/cheklist-medicao.md
     - Ciclo 5:
       - Avaleasy:
         - Planejamento: /
         - Resultados: /
       - Grimorio do Mestre:
         - Planejamento: /
-        - Resultados: /
+        - Resultados: 
+          - Checklist Medição: resultados-de-auditoria/grimorio/auditoria-5-grimorio/cheklist-medicao.md
     - Ciclo 6:
       - Avaleasy:
         - Planejamento: /
         - Resultados: /
       - Grimorio do Mestre:
         - Planejamento: /
-        - Resultados: /
+        - Resultados: 
+          - Checklist Medição: resultados-de-auditoria/grimorio/auditoria-6-grimorio/cheklist-medicao.md
 
 theme:
   name: 'material'
