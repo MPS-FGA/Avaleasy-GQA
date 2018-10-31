@@ -75,6 +75,34 @@ nav:
           - Lista Informal Requisitos: /
           - Relatório Retrospectiva: /
           - Requisitos: /
+    - Ciclo 3:
+      - Avaleasy:
+        - Planejamento: /
+        - Resultados: /
+      - Grimorio do Mestre:
+        - Planejamento: /
+        - Resultados: /
+    - Ciclo 4:
+      - Avaleasy:
+        - Planejamento: /
+        - Resultados: /
+      - Grimorio do Mestre:
+        - Planejamento: /
+        - Resultados: /
+    - Ciclo 5:
+      - Avaleasy:
+        - Planejamento: /
+        - Resultados: /
+      - Grimorio do Mestre:
+        - Planejamento: /
+        - Resultados: /
+    - Ciclo 6:
+      - Avaleasy:
+        - Planejamento: /
+        - Resultados: /
+      - Grimorio do Mestre:
+        - Planejamento: /
+        - Resultados: /
 
 theme:
   name: 'material'
