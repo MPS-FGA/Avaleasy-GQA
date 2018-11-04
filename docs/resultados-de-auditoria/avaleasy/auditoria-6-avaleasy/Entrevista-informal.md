@@ -1,5 +1,11 @@
 # Sprint 6
 
+## Participantes da auditoria
+- Lucas Malta
+- Nicácio Arruda
+- Eduardo Vital
+- Halê
+
 ## Desenvolvimento
 Planejamento
  - Não foi possível ajustar o cronograma.
@@ -22,8 +28,3 @@ Horários da aula devotado para o desenvolvimento é importante, mas quando não
 
 A equipe pediu para que a auditoria fosse adiada para quarta-feira a noite.
 
-# Participantes da auditoria
-- Lucas Malta
-- Nicácio Arruda
-- Eduardo Vital
-- Halê
