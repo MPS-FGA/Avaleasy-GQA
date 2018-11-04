@@ -1,5 +1,14 @@
 # Sprint 5 (10)
 
+## Participantes da auditoria
+
+- Lucas Malta
+- Nicácio Arruda
+- Eduardo Vital
+
+
+## Anotações Equipe de Desenvolvimento
+
 Planejamento - OK
 Débitos da Sprint anterior: iss#29 #11 #12
  - Iss #24 foi adiada para Sprint 6
@@ -7,20 +16,14 @@ Débitos da Sprint anterior: iss#29 #11 #12
  - Frontend sem teste
 
 Débito para a próxima:
-  - Com exceção de
-
-Nenhuma história foi concluída. 6 débitos.
+  - Nenhuma história foi concluída. 6 débitos.
 
 Imprevistos ocorreram
  - Membros conseguiram estágio
  - Provas imprevistas
 
-# Participantes da auditoria
-- Lucas Malta
-- Nicácio Arruda
-- Eduardo Vital
 
-# Medição - Pré - Auditoria
+## Anotações Equipe de Medição. Pré-Auditoria
 
 - Zenhub não foi configurado (depende de Desenvolvimento).
   - Ultima cobrança a mais de 7 dias
