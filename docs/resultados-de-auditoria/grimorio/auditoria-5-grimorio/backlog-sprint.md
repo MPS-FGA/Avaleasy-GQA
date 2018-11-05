@@ -1,17 +1,16 @@
 # Auditoria sprint 5 - entrevista e checklist
 
 ## Checklist
-|Item | Conformidade|
+|Item | Conformidade| 
 |----------|-------------|
 |O backlog da sprint existe? | sim |
-| O backlog contém estórias de usuário| sim | 
+|O backlog contém estórias de usuário| sim | 
 |As estórias estão escritas em voz de usuári? | sim | 
 |As estórias de usuário possuem critérios de aceitação| sim | 
-|As estórias de usuário forão pontuadas | sim 
+|As estórias de usuário forão pontuadas | sim |
 |As estórias de usuário são referentes as features levantadas | não |
 |As estórias de usuário foram alocadas aos integrantes do time?| sim | 
-|A sprint foi finalizada? | não |
-|A sprint foi finalizada? | sim |
+|A sprint foi finalizada? | sim | 
 |A revisão foi finalizada?| sim |
 |O relatório da retrospectiva existe?| sim |
 
