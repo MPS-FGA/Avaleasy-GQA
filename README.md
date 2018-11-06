@@ -1,4 +1,4 @@
-## Bem-Vindo a Avaleasy - Garantia da Qualidade
+## Garantia da Qualidade
 
 
 ## **Artefatos**
@@ -32,6 +32,17 @@
  #### Sprint 1
  - Avaleasy
    - Desenvolvimento
+     - [Backlog Refinado](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-refinado.md)
+     - [Backlog da Release Refinado](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-release-refinado.md)
+     - [Backlog da Release](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-release.md)
+     - [Backlog da Sprint](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-sprint.md)
+     - [Backlog Validado](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-validado.md)
+     - [Backlog](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog.md)
+     - [Incremento](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/incremento.md)
+     - [Lista Informal de Requisitos](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/lista-informal-requisitos.md)
+     - [Relatório da Restrospectiva](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/relatorio-retrospectiva.md)
+     - [Requisitos](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/requisitos.md)
+     - [Testes](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/testes.md)
    - Medição
  - Grimório
    - Desenvolvimento
@@ -51,6 +62,17 @@
  #### Sprint 2
  - Avaleasy
    - Desenvolvimento
+     - [Backlog Refinado](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-2-avaleasy/backlog-refinado.md)
+     - [Backlog da Release Refinado](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-2-avaleasy/backlog-release-refinado.md)
+     - [Backlog da Release](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-2-avaleasy/backlog-release.md)
+     - [Backlog da Sprint](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-2-avaleasy/backlog-sprint.md)
+     - [Backlog Validado](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-2-avaleasy/backlog-validado.md)
+     - [Backlog](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-2-avaleasy/backlog.md)
+     - [Incremento](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-2-avaleasy/incremento.md)
+     - [Lista Informal de Requisitos](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-2-avaleasy/lista-informal-requisitos.md)
+     - [Relatório da Retrospectiva](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-2-avaleasy/relatorio-retrospectiva.md)
+     - [Requisitos](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-2-avaleasy/requisitos.md)
+     - [Testes](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-2-avaleasy/testes.md)
    - Medição
  - Grimório
    - Desenvolvimento
@@ -70,7 +92,20 @@
  #### Sprint 3
  - Avaleasy
    - Desenvolvimento
+     - [Reunião Informal](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/Reuni%C3%A3o%20informal.md)
+     - [Backlog Refinado](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/backlog-refinado.md)
+     - [Backlog da Release Refinado](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/backlog-release-refinado.md)
+     - [Backlog da Release](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/backlog-release.md)
+     - [Backlog da Sprint](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/backlog-sprint.md)
+     - [Backlog Validado](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/backlog-validado.md)
+     - [Backlog](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/backlog.md)
+     - [Incremento](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/incremento.md)
+     - [Lista Informal de Requisitos](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/lista-informal-requisitos.md)
+     - [Relatório da Retrospectiva](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/relatorio-retrospectiva.md)
+     - [Requisitos](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/requisitos.md)
+     - [Testes](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/testes.md)
    - Medição
+     - [Checklist de Medição](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/cheklist_medicao.md)
  - Grimório
    - Desenvolvimento
    - Medição
@@ -95,7 +130,20 @@
  #### Sprint 6
  - Avaleasy
    - Desenvolvimento
+     - [Entrevista Informal](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/Entrevista-informal.md)
+     - [Backlog Refinado](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/backlog-refinado.md)
+     - [Backlog da Release Refinado](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/backlog-release-refinado.md)
+     - [Backlog da Release](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/backlog-release.md)
+     - [Backlog da Sprint](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/backlog-sprint.md)
+     - [Backlog Validado](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/backlog-validado.md)
+     - [Backlog](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/backlog.md)
+     - [Incremento](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/incremento.md)
+     - [Lista Informal de Requisitos](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/lista-informal-requisitos.md)
+     - [Relatório da Restrospectiva](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/relatorio-retrospectiva.md)
+     - [Requisitos](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/requisitos.md)
+     - [Testes](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/testes.md)
    - Medição
+     - [Checklist de Medição](https://github.com/MPS-FGA/GQA/blob/master/docs/resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/cheklist_medicao.md)
  - Grimório
    - Desenvolvimento
    - Medição
