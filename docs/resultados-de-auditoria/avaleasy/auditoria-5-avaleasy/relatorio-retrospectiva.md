@@ -29,8 +29,8 @@
   <tr>
     <td>A sprint foi finalizada?</td>
     <td>O Backlog da Sprint, Issues</td>
-    <td>X</td>
     <td></td>
+    <td>X</td>
     <td></td>
     <td></td>
   </tr>
