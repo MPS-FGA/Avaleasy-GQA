@@ -1,0 +1,2589 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+    
+    
+      
+        <title>Issue [#6][#6] - GQA</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.451f80e5.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="../../#issue-66" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="GQA" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                GQA
+              </span>
+              <span class="md-header-nav__topic">
+                Issue [#6][#6]
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="GQA" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    GQA
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Artefatos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Artefatos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../artefatos/estrutura-organizacional/" title="Estrutura Organizacional e de Trabalho" class="md-nav__link">
+      Estrutura Organizacional e de Trabalho
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../artefatos/objetos-de-auditoria/" title="Objetos de Auditoria" class="md-nav__link">
+      Objetos de Auditoria
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Templates
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Templates
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../temp/nao-conformidades/" title="Não Conformidades" class="md-nav__link">
+      Não Conformidades
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../temp/issue-de-nao-conformidade/" title="Issue Não Conformidade" class="md-nav__link">
+      Issue Não Conformidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../temp/checklist/" title="Checklist" class="md-nav__link">
+      Checklist
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../temp/entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../temp/resultado-de-ciclo/" title="Resultado do Ciclo" class="md-nav__link">
+      Resultado do Ciclo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../temp/resultado-de-auditoria/" title="Resultado da Auditoria" class="md-nav__link">
+      Resultado da Auditoria
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Ferramentas
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Ferramentas
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://github.com/MPS-FGA/Avaleasy-GQA/tree/master/docs" title="Docs-Github" class="md-nav__link">
+      Docs-Github
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://github.com/MPS-FGA/Avaleasy-GQA/issues" title="Issues-Github" class="md-nav__link">
+      Issues-Github
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Processos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Processos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Fluxo de Trabalho" class="md-nav__link">
+      Fluxo de Trabalho
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2">
+    
+    <label class="md-nav__link" for="nav-5-2">
+      Garantia da Qualidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        Garantia da Qualidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Planejar Auditorias do Ciclo" class="md-nav__link">
+      Planejar Auditorias do Ciclo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Executar Auditoria" class="md-nav__link">
+      Executar Auditoria
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Planejamento/Resultado
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Planejamento/Resultado
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-1" type="checkbox" id="nav-6-1">
+    
+    <label class="md-nav__link" for="nav-6-1">
+      Sprint 1
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-1">
+        Sprint 1
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-1-1" type="checkbox" id="nav-6-1-1">
+    
+    <label class="md-nav__link" for="nav-6-1-1">
+      Avaleasy
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-1-1">
+        Avaleasy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../planejamento-auditoria-1-avaleasy/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-1-1-2" type="checkbox" id="nav-6-1-1-2">
+    
+    <label class="md-nav__link" for="nav-6-1-1-2">
+      Resultados
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-6-1-1-2">
+        Resultados
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog/" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-refinado/" title="Backlog Refinado" class="md-nav__link">
+      Backlog Refinado
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-validado/" title="Backlog Validado" class="md-nav__link">
+      Backlog Validado
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-sprint/" title="Backlog Sprint" class="md-nav__link">
+      Backlog Sprint
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-release/" title="Backlog Release" class="md-nav__link">
+      Backlog Release
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/backlog-release-refinado/" title="Backlog Release Refinado" class="md-nav__link">
+      Backlog Release Refinado
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/incremento/" title="Incremento" class="md-nav__link">
+      Incremento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/lista-informal-requisitos/" title="Lista Informal Requisitos" class="md-nav__link">
+      Lista Informal Requisitos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/relatorio-retrospectiva/" title="Relatório Retrospectiva" class="md-nav__link">
+      Relatório Retrospectiva
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/requisitos/" title="Requisitos" class="md-nav__link">
+      Requisitos
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-1-2" type="checkbox" id="nav-6-1-2">
+    
+    <label class="md-nav__link" for="nav-6-1-2">
+      Grimorio do Mestre
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-1-2">
+        Grimorio do Mestre
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-1-2-2" type="checkbox" id="nav-6-1-2-2">
+    
+    <label class="md-nav__link" for="nav-6-1-2-2">
+      Resultados
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-6-1-2-2">
+        Resultados
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-1-grimorio/backlog/" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-1-grimorio/backlog-refinado/" title="Backlog Refinado" class="md-nav__link">
+      Backlog Refinado
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-1-grimorio/backlog-validado/" title="Backlog Validado" class="md-nav__link">
+      Backlog Validado
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-1-grimorio/backlog-sprint/" title="Backlog Sprint" class="md-nav__link">
+      Backlog Sprint
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-1-grimorio/backlog-release/" title="Backlog Release" class="md-nav__link">
+      Backlog Release
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-1-grimorio/backlog-release-refinado/" title="Backlog Release Refinado" class="md-nav__link">
+      Backlog Release Refinado
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-1-grimorio/incremento/" title="Incremento" class="md-nav__link">
+      Incremento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-1-grimorio/lista-informal-requisitos/" title="Lista Informal Requisitos" class="md-nav__link">
+      Lista Informal Requisitos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-1-grimorio/relatorio-retrospectiva/" title="Relatório Retrospectiva" class="md-nav__link">
+      Relatório Retrospectiva
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-1-grimorio/requisitos/" title="Requisitos" class="md-nav__link">
+      Requisitos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-1-grimorio/cheklist-medicao/" title="Checklist Medição" class="md-nav__link">
+      Checklist Medição
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-2" type="checkbox" id="nav-6-2">
+    
+    <label class="md-nav__link" for="nav-6-2">
+      Sprint 2
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-2">
+        Sprint 2
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-2-1" type="checkbox" id="nav-6-2-1">
+    
+    <label class="md-nav__link" for="nav-6-2-1">
+      Avaleasy
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-2-1">
+        Avaleasy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../planejamento-auditoria-1-avaleasy/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-2-1-2" type="checkbox" id="nav-6-2-1-2">
+    
+    <label class="md-nav__link" for="nav-6-2-1-2">
+      Resultados
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-6-2-1-2">
+        Resultados
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/auditoria-2-avaleasy/backlog.md" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/auditoria-2-avaleasy/backlog-refinado.md" title="Backlog Refinado" class="md-nav__link">
+      Backlog Refinado
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/auditoria-2-avaleasy/backlog-validado.md" title="Backlog Validado" class="md-nav__link">
+      Backlog Validado
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/auditoria-2-avaleasy/backlog-sprint.md" title="Backlog Sprint" class="md-nav__link">
+      Backlog Sprint
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/auditoria-2-avaleasy/backlog-release.md" title="Backlog Release" class="md-nav__link">
+      Backlog Release
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/auditoria-2-avaleasy/backlog-release-refinado.md" title="Backlog Release Refinado" class="md-nav__link">
+      Backlog Release Refinado
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/auditoria-2-avaleasy/incremento.md" title="Incremento" class="md-nav__link">
+      Incremento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/auditoria-2-avaleasy/lista-informal-requisitos.md" title="Lista Informal Requisitos" class="md-nav__link">
+      Lista Informal Requisitos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/auditoria-2-avaleasy/relatorio-retrospectiva.md" title="Relatório Retrospectiva" class="md-nav__link">
+      Relatório Retrospectiva
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/auditoria-2-avaleasy/requisitos.md" title="Requisitos" class="md-nav__link">
+      Requisitos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/auditoria-2-grimorio/cheklist-medicao.md" title="Checklist Medição" class="md-nav__link">
+      Checklist Medição
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-2-2" type="checkbox" id="nav-6-2-2">
+    
+    <label class="md-nav__link" for="nav-6-2-2">
+      Grimorio do Mestre
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-2-2">
+        Grimorio do Mestre
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-2-2-2" type="checkbox" id="nav-6-2-2-2">
+    
+    <label class="md-nav__link" for="nav-6-2-2-2">
+      Resultados
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-6-2-2-2">
+        Resultados
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-1-avaleasy/cheklist-medicao.md" title="Checklist Medição" class="md-nav__link">
+      Checklist Medição
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-3" type="checkbox" id="nav-6-3">
+    
+    <label class="md-nav__link" for="nav-6-3">
+      Sprint 3
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-3">
+        Sprint 3
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-3-1" type="checkbox" id="nav-6-3-1">
+    
+    <label class="md-nav__link" for="nav-6-3-1">
+      Avaleasy
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-3-1">
+        Avaleasy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Resultados" class="md-nav__link">
+      Resultados
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-3-2" type="checkbox" id="nav-6-3-2">
+    
+    <label class="md-nav__link" for="nav-6-3-2">
+      Grimorio do Mestre
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-3-2">
+        Grimorio do Mestre
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-3-2-2" type="checkbox" id="nav-6-3-2-2">
+    
+    <label class="md-nav__link" for="nav-6-3-2-2">
+      Resultados
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-6-3-2-2">
+        Resultados
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-3-grimorio/cheklist-medicao/" title="Checklist Medição" class="md-nav__link">
+      Checklist Medição
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-4" type="checkbox" id="nav-6-4">
+    
+    <label class="md-nav__link" for="nav-6-4">
+      Sprint 4
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-4">
+        Sprint 4
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-4-1" type="checkbox" id="nav-6-4-1">
+    
+    <label class="md-nav__link" for="nav-6-4-1">
+      Avaleasy
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-4-1">
+        Avaleasy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Resultados" class="md-nav__link">
+      Resultados
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-4-2" type="checkbox" id="nav-6-4-2">
+    
+    <label class="md-nav__link" for="nav-6-4-2">
+      Grimorio do Mestre
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-4-2">
+        Grimorio do Mestre
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-4-2-2" type="checkbox" id="nav-6-4-2-2">
+    
+    <label class="md-nav__link" for="nav-6-4-2-2">
+      Resultados
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-6-4-2-2">
+        Resultados
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-4-grimorio/cheklist-medicao/" title="Checklist Medição" class="md-nav__link">
+      Checklist Medição
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-5" type="checkbox" id="nav-6-5">
+    
+    <label class="md-nav__link" for="nav-6-5">
+      Sprint 5
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-5">
+        Sprint 5
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-5-1" type="checkbox" id="nav-6-5-1">
+    
+    <label class="md-nav__link" for="nav-6-5-1">
+      Avaleasy
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-5-1">
+        Avaleasy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-5-avaleasy/cheklist_medicao/" title="Resultados" class="md-nav__link">
+      Resultados
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-5-2" type="checkbox" id="nav-6-5-2">
+    
+    <label class="md-nav__link" for="nav-6-5-2">
+      Grimorio do Mestre
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-5-2">
+        Grimorio do Mestre
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-5-2-2" type="checkbox" id="nav-6-5-2-2">
+    
+    <label class="md-nav__link" for="nav-6-5-2-2">
+      Resultados
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-6-5-2-2">
+        Resultados
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-5-grimorio/cheklist-medicao/" title="Checklist Medição" class="md-nav__link">
+      Checklist Medição
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-6" type="checkbox" id="nav-6-6">
+    
+    <label class="md-nav__link" for="nav-6-6">
+      Sprint 6
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-6">
+        Sprint 6
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-6-1" type="checkbox" id="nav-6-6-1">
+    
+    <label class="md-nav__link" for="nav-6-6-1">
+      Avaleasy
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-6-1">
+        Avaleasy
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/avaleasy/auditoria-6-avaleasy/cheklist_medicao/" title="Resultados" class="md-nav__link">
+      Resultados
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-6-2" type="checkbox" id="nav-6-6-2">
+    
+    <label class="md-nav__link" for="nav-6-6-2">
+      Grimorio do Mestre
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-6-6-2">
+        Grimorio do Mestre
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-6-2-2" type="checkbox" id="nav-6-6-2-2">
+    
+    <label class="md-nav__link" for="nav-6-6-2-2">
+      Resultados
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-6-6-2-2">
+        Resultados
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../resultados-de-auditoria/grimorio/auditoria-6-grimorio/cheklist-medicao/" title="Checklist Medição" class="md-nav__link">
+      Checklist Medição
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-desenvolvimento" title="1. Desenvolvimento" class="md-nav__link">
+    1. Desenvolvimento
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-subprocesso-requisitos" title="1.1. Subprocesso Requisitos" class="md-nav__link">
+    1.1. Subprocesso Requisitos
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elicitar-requisitos" title="Elicitar Requisitos" class="md-nav__link">
+    Elicitar Requisitos
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analisar-requisitos" title="Analisar Requisitos" class="md-nav__link">
+    Analisar Requisitos
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_1" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_1" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backlog" title="Backlog" class="md-nav__link">
+    Backlog
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_2" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_2" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backlog-validado" title="Backlog Validado" class="md-nav__link">
+    Backlog Validado
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_3" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_3" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backlog-refinado" title="Backlog Refinado" class="md-nav__link">
+    Backlog Refinado
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_4" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_4" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-atividade-planejar-release" title="1.2. Atividade Planejar Release" class="md-nav__link">
+    1.2. Atividade Planejar Release
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backlog-da-release" title="Backlog da Release" class="md-nav__link">
+    Backlog da Release
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_5" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_5" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#planejamento-de-treinamentos" title="Planejamento de Treinamentos" class="md-nav__link">
+    Planejamento de Treinamentos
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_6" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_6" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-subprocesso-desenvolvimento" title="1.3. Subprocesso Desenvolvimento" class="md-nav__link">
+    1.3. Subprocesso Desenvolvimento
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backlog-da-sprint" title="Backlog da Sprint" class="md-nav__link">
+    Backlog da Sprint
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_7" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_7" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incremento-de-software" title="Incremento de software" class="md-nav__link">
+    Incremento de software
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_8" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_8" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backlog-da-release-refinado" title="Backlog da Release Refinado" class="md-nav__link">
+    Backlog da Release Refinado
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_9" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_9" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relatorio-da-retrospectiva" title="Relatório da Retrospectiva" class="md-nav__link">
+    Relatório da Retrospectiva
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_10" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_10" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-medicao-e-analise" title="2. Medição e Análise" class="md-nav__link">
+    2. Medição e Análise
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-definicao" title="2.1. Definição" class="md-nav__link">
+    2.1. Definição
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#plano-de-medicao" title="Plano de medição" class="md-nav__link">
+    Plano de medição
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_11" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_11" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metricas-definidas" title="Métricas Definidas" class="md-nav__link">
+    Métricas Definidas
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_12" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_12" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rastreabilidade" title="Rastreabilidade" class="md-nav__link">
+    Rastreabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_13" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_13" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-coleta-de-dados" title="2.2. Coleta de Dados" class="md-nav__link">
+    2.2. Coleta de Dados
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#template-de-coleta" title="Template de coleta" class="md-nav__link">
+    Template de coleta
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_14" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tecnicas-de-auditoria_14" title="Técnicas de Auditoria" class="md-nav__link">
+    Técnicas de Auditoria
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-interpretacao" title="2.3. Interpretação" class="md-nav__link">
+    2.3. Interpretação
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#relatorio-de-feedbacks" title="Relatório de Feedbacks" class="md-nav__link">
+    Relatório de Feedbacks
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-avaliacao_15" title="Critérios de Avaliação" class="md-nav__link">
+    Critérios de Avaliação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="issue-66">Issue [#6][#6]</h1>
+<h2 id="1-desenvolvimento">1. Desenvolvimento</h2>
+<h3 id="11-subprocesso-requisitos">1.1. Subprocesso Requisitos</h3>
+<h4 id="elicitar-requisitos"><strong>Elicitar Requisitos</strong></h4>
+<h6 id="criterios-de-avaliacao">Critérios de Avaliação</h6>
+<ul>
+<li>Deve ser feita uma reunião para elicitação de requisitos com o cliente;</li>
+<li>A elicitação de requisitos deve ser executada com auxílio de alguma técnica de elicitação;</li>
+<li>A Lista Informal de Requisitos deve ser levanta durante a reunião com o cliente;</li>
+<li>Os requisitos devem estar documentados no repositório do projeto;</li>
+<li>Os requisitos devem ser descritos em alto nível de abstração;</li>
+<li>Os requisitos devem ser validados com o cliente ao final da reunião;</li>
+<li>O documento deve conter uma descrição clara e concisa das necessidades e problema.</li>
+</ul>
+<h6 id="tecnicas-de-auditoria">Técnicas de Auditoria</h6>
+<ul>
+<li>Checklist</li>
+<li>Entrevista</li>
+</ul>
+<h4 id="analisar-requisitos"><strong>Analisar Requisitos</strong></h4>
+<h6 id="criterios-de-avaliacao_1">Critérios de Avaliação</h6>
+<ul>
+<li>Deve ser feita uma reunião entre os membros da equipe de desenvolvimento.</li>
+<li>A partir da Lista Informal de Requisitos devem ser extraídos os requisitos formais;</li>
+<li>Os Requisitos devem estar documentados no repositório do projeto;</li>
+<li>Deve haver rastreabilidade entre Épico e Feature;</li>
+<li>Épicos e Features devem ser nomeados de acordo com o padrão descrito no repositório.</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_1">Técnicas de Auditoria</h6>
+<ul>
+<li>Checklist</li>
+<li>Entrevista</li>
+</ul>
+<h4 id="backlog">Backlog</h4>
+<h6 id="criterios-de-avaliacao_2">Critérios de Avaliação</h6>
+<ul>
+<li>O Backlog deve existir;</li>
+<li>Os conhecimentos da fase de elicitação devem ter sido lapidados;</li>
+<li>Os conhecimentos lapidados da fase de elicitação devem ter sido documentados no BackLog;</li>
+<li>Todas as features do projeto devem ter sidos definidas;</li>
+<li>Deve existir um documento que contém informações a respeito dos Requisitos do Sistema;</li>
+<li>A equipe de desenvolvimento deve ter executado uma atividade que gerou esse Backlog.</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_2">Técnicas de Auditoria</h6>
+<ul>
+<li>Checklist</li>
+<li>Entrevista</li>
+</ul>
+<h4 id="backlog-validado">Backlog Validado</h4>
+<h6 id="criterios-de-avaliacao_3">Critérios de Avaliação</h6>
+<ul>
+<li>Existe o backlog?</li>
+<li>O backlog foi derivado a partir da lista de necessidades do cliente?</li>
+<li>O backlog foi validado com o cliente?</li>
+<li>O backlog foi aprovado</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_3">Técnicas de Auditoria</h6>
+<ul>
+<li>Checklist</li>
+<li>Entrevista</li>
+</ul>
+<h4 id="backlog-refinado">Backlog Refinado</h4>
+<h6 id="criterios-de-avaliacao_4">Critérios de Avaliação</h6>
+<ul>
+<li>Houve a necessidade da realização do refinamento de requisitos?</li>
+<li>Existe versionamento do backlog?</li>
+<li>Foram levantados os requisitos?</li>
+<li>O cliente foi expôs os requisitos?</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_4">Técnicas de Auditoria</h6>
+<ul>
+<li>Checklist</li>
+<li>Entrevista</li>
+</ul>
+<h3 id="12-atividade-planejar-release">1.2. Atividade Planejar Release</h3>
+<h4 id="backlog-da-release">Backlog da Release</h4>
+<h6 id="criterios-de-avaliacao_5">Critérios de Avaliação</h6>
+<ul>
+<li>Foram mapeados épicos?</li>
+<li>Foram mapeados features?</li>
+<li>O cliente validou os épicos?</li>
+<li>O cliente validou os features?</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_5">Técnicas de Auditoria</h6>
+<ul>
+<li>Checklist</li>
+<li>Entrevista</li>
+</ul>
+<h4 id="planejamento-de-treinamentos">Planejamento de Treinamentos</h4>
+<h6 id="criterios-de-avaliacao_6">Critérios de Avaliação</h6>
+<ul>
+<li>Uma necessidade deve ser identificada para a execução de um treinamento.</li>
+<li>O objetivo do treinamento deve ser definido.</li>
+<li>O planejamento de treinamentos deve existir.</li>
+<li>O treinamento deve ter descrição do que será ministrado.</li>
+<li>Cada treinamento deve ter o responsável definido.</li>
+<li>Cada treinamento deve ter data definida.</li>
+<li>As ferramentas utilizadas devem ser definidas.</li>
+<li>O treinamento foi realizado conforme o previsto?</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_6">Técnicas de Auditoria</h6>
+<ul>
+<li>Checklist</li>
+<li>Entrevista - Após a realização do treinamento.</li>
+</ul>
+<h3 id="13-subprocesso-desenvolvimento">1.3. Subprocesso Desenvolvimento</h3>
+<h4 id="backlog-da-sprint">Backlog da Sprint</h4>
+<h6 id="criterios-de-avaliacao_7">Critérios de Avaliação</h6>
+<ul>
+<li>O backlog da release deve existir.</li>
+<li>O backlog da sprint deve existir.</li>
+<li>O backlog da sprint deve conter as histórias de usuário da sprint em questão.</li>
+<li>As histórias de usuário devem ser escritas em voz de usuário. (Eu, como ..., desejo ... para ...).</li>
+<li>As histórias de usuário devem ter critérios de aceitação.</li>
+<li>As histórias de usuário devem estar pontuadas.</li>
+<li>As histórias de usuário devem ser referentes a features levantadas.</li>
+<li>As histórias de usuário devem ser alocadas aos integrantes do time.</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_7">Técnicas de Auditoria</h6>
+<ul>
+<li>Checklist</li>
+<li>Entrevista</li>
+</ul>
+<h4 id="incremento-de-software">Incremento de software</h4>
+<h6 id="criterios-de-avaliacao_8">Critérios de Avaliação</h6>
+<ul>
+<li>A sprint deve ter sido planejada.</li>
+<li>Todas as histórias da sprint devem ter sido concluídas.</li>
+<li>Todas as histórias da sprint devem ter sido integradas na branch principal do projeto.</li>
+<li>O projeto deve estar funcional na branch principal.</li>
+<li>Devem existir testes.</li>
+<li>A cobertura de testes deve estar de acordo com o que foi definido pelo plano de medição.</li>
+<li>Os testes devem ser feitos em paralelo com o desenvolvimeto das funcionalidades.</li>
+<li>Deve existir, nos repositórios de desenvolvimeto, uma indicação da % de cobertura de testes.</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_8">Técnicas de Auditoria</h6>
+<ul>
+<li>Entrevista</li>
+</ul>
+<h4 id="backlog-da-release-refinado">Backlog da Release Refinado</h4>
+<h6 id="criterios-de-avaliacao_9">Critérios de Avaliação</h6>
+<ul>
+<li>A sprint deve ter sido finalizada.</li>
+<li>As histórias que foram concluídas devem ser identificadas e documentadas.</li>
+<li>As histórias que não foram concluídas devem ser identificadas e documentadas.</li>
+<li>Os motivos pelos quais uma história não foi concluída devem ser documentados.</li>
+<li>As dívidas para próximas sprints devem ser identificadas e documentadas.</li>
+<li>O Backlog da release deve ser replanejado/repriorizado.</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_9">Técnicas de Auditoria</h6>
+<ul>
+<li>Checklist</li>
+</ul>
+<h4 id="relatorio-da-retrospectiva">Relatório da Retrospectiva</h4>
+<h6 id="criterios-de-avaliacao_10">Critérios de Avaliação</h6>
+<ul>
+<li>A sprint deve ter sido finalizada.</li>
+<li>A revisão deve ter sido finalizada.</li>
+<li>O relatorio da retrospectiva deve existir.</li>
+<li>Os pontos negativos da sprint devem ser identificados e documentados.</li>
+<li>Os pontos positivos da sprint devem ser identificados e documentados.</li>
+<li>As propostas de melhoria para as próximas sprints estão identificadas e documentadas.</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_10">Técnicas de Auditoria</h6>
+<ul>
+<li>Checklist</li>
+</ul>
+<h2 id="2-medicao-e-analise">2. Medição e Análise</h2>
+<h3 id="21-definicao">2.1. Definição</h3>
+<h4 id="plano-de-medicao">Plano de medição</h4>
+<h6 id="criterios-de-avaliacao_11">Critérios de Avaliação</h6>
+<ul>
+<li>O plano de medição deve existir</li>
+<li>O plano de medição deve seguir o GQM</li>
+<li>O plano de medição deve conter os objetivos estratégicos</li>
+<li>O plano de medição deve conter as questões</li>
+<li>O plano de medição deve conter as análises do que será medido</li>
+<li>O plano de medição deve conter o planejamento das coletas</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_11">Técnicas de Auditoria</h6>
+<ul>
+<li>Checklist</li>
+</ul>
+<h4 id="metricas-definidas">Métricas Definidas</h4>
+<h6 id="criterios-de-avaliacao_12">Critérios de Avaliação</h6>
+<ul>
+<li>As métricas que serão de coletadas devem estar definidas e documentadas</li>
+<li>As métricas devem ser definidas utilizando o GQM</li>
+<li>As métricas devem estar acompanhadas do Procedimento de coleta</li>
+<li>As métricas devem estar acompanhadas da Análise</li>
+<li>As métricas devem acompanhar uma sugestão de Providência para o caso de um resultado não satisfatório</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_12">Técnicas de Auditoria</h6>
+<ul>
+<li>Checklist</li>
+</ul>
+<h4 id="rastreabilidade">Rastreabilidade</h4>
+<h6 id="criterios-de-avaliacao_13">Critérios de Avaliação</h6>
+<ul>
+<li>Devem existir os objetivos (<em>goals</em>)</li>
+<li>Devem existir as questões (<em>questions</em>)</li>
+<li>Devem existir as métricas (<em>metrics</em>)</li>
+<li>Para cada métrica, deve existir exatamente uma questão da qual a métrica foi derivada</li>
+<li>Para cada questão, deve existir exatamente um objetivo do qual a questão foi derivada</li>
+<li>Os dados acima devem estar diagramados</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_13">Técnicas de Auditoria</h6>
+<ul>
+<li>Entrevista</li>
+</ul>
+<h3 id="22-coleta-de-dados">2.2. Coleta de Dados</h3>
+<h4 id="template-de-coleta">Template de coleta</h4>
+<h6 id="criterios-de-avaliacao_14">Critérios de Avaliação</h6>
+<ul>
+<li>O Template de Coleta deve ser disponibilizado no GitHub</li>
+<li>O Template deve ser feito de uma forma tal que possa reutilizado em mais de uma sprint</li>
+<li>O Template deve conter uma seção sobre quais métricas foram coletadas</li>
+<li>O template deve conter uma seção sobre Análise dos dados</li>
+</ul>
+<h6 id="tecnicas-de-auditoria_14">Técnicas de Auditoria</h6>
+<ul>
+<li>Entrevista</li>
+</ul>
+<h3 id="23-interpretacao">2.3. Interpretação</h3>
+<h4 id="relatorio-de-feedbacks">Relatório de Feedbacks</h4>
+<h6 id="criterios-de-avaliacao_15">Critérios de Avaliação</h6>
+<ul>
+<li>Os dados de processo, equipe e produto devem ter sido coletados.</li>
+<li>As métricas coletadas devem possuir indicadores para análise.</li>
+<li>Os envolvidos na medição devem possuir total entendimento do que será medido.</li>
+<li>O relatório de feedbacks deve conter a descrição de cada cada ponto de análise deve ser discutida entre os envolvidos.</li>
+<li>A análise deve contemplar todos os pontos medidos.</li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.583bbe55.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
