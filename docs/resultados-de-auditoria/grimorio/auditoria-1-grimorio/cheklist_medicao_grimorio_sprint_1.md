@@ -1,17 +1,17 @@
-# Checklist - Medição (Por Sprint)
+# Checklist - Medição (Sprint 1)
 
 | Métrica | Coletada? (Sim/Não) |
 |:--:|:--:|
-|Percentual de aderência ao processo| Não |
-|Percentual de artefatos planejados concluídos por sprint| Não |
+|Percentual de aderência ao processo| Sim |
+|Percentual de artefatos planejados concluídos por sprint| Sim |
 |Percentual de métricas coletadas| Sim |
-|Percentual de melhoria de métricas| Sim |
+|Percentual de melhoria de métricas| Não |
 |Percentual de critérios de aceitação concluídos por feature| Não |
-|Percentual de histórias entregues por sprints| Não |
+|Percentual de histórias entregues por sprints| Sim |
 |Percentual de código testado (APP)| Não |
-|Complexidade Ciclomática (APP) | Sim |
+|Complexidade Ciclomática (APP) | Não |
 |Número de erros referentes a folha de estilo proposta (APP)| Não |
-|Duplicação de código (APP)| Sim |
+|Duplicação de código (APP)| Não |
 |Percentual de endpoints documentados | Não |
 |Percentual de comentários no código (APP)| Não |
 |Burndown| Não |
@@ -19,24 +19,14 @@
 
 # Justificativas das não conformidades
 ---
-**Métrica**: Percentual de aderência ao processo
+**Métrica**: Percentual de melhoria de métricas
 
-**Justificativa**: A equipe de medição alegou que os documentos necessários não foram encontrados.
-
----
-**Métrica**: Percentual de artefatos planejados concluídos por sprint
-
-**Justificativa**: A equipe de medição alegou que os documentos necessários não foram encontrados.
+**Justificativa**: Como é referente à primeira sprint, não há como comparar com resultados anteriores.
 
 ---
 **Métrica**: Percentual de critérios de aceitação concluídos por feature
 
-**Justificativa**: A equipe de medição alegou que esta métrica só é coletada ao fim da release, como é definido no plano de medição.
-
----
-**Métrica**: Percnetual de histórias entregues por sprints
-
-**Justificativa**: A equipe de medição alegou que os documentos necessários não foram encontrados.
+**Justificativa**: A equipe de medição alegou que esta métrica é coletada apenas ao fim de uma release, como é definido no plano de medição.
 
 ---
 **Métrica**: Percentual de código testado (APP)
@@ -44,7 +34,17 @@
 **Justificativa**: A equipe de medição alegou que a ferramenta não estava configurada.
 
 ---
+**Métrica**: Complexidade Ciclomática (APP)
+
+**Justificativa**: A equipe de medição alegou que a ferramenta não estava configurada.
+
+---
 **Métrica**: Número de erros referentes à folha de estilo proposta (APP)
+
+**Justificativa**: A equipe de medição alegou que a ferramenta não estava configurada.
+
+---
+**Métrica**: Duplicação de código (APP)
 
 **Justificativa**: A equipe de medição alegou que a ferramenta não estava configurada.
 
@@ -68,4 +68,6 @@
 
 **Justificativa**: A equipe de medição alegou que a ferramenta não estava configurada **corretamente**.
 
----
+## Auditores responsáveis
+
+* Victor Moura

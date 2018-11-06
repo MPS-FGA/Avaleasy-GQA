@@ -1,4 +1,4 @@
-# Checklist - Medição (Por Sprint)
+# Checklist - Medição (Sprint 3)
 
 | Métrica | Coletada? (Sim/Não) |
 |:--:|:--:|
@@ -53,4 +53,6 @@
 
 **Justificativa**: A equipe de medição alegou que a ferramenta não estava configurada **corretamente**.
 
----
+## Auditores responsáveis
+
+* Victor Moura

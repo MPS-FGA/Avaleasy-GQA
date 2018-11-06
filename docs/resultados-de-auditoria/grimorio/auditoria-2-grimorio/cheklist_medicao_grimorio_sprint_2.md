@@ -1,11 +1,11 @@
-# Checklist - Medição (Por Sprint)
+# Checklist - Medição (Sprint 2)
 
 | Métrica | Coletada? (Sim/Não) |
 |:--:|:--:|
 |Percentual de aderência ao processo| Sim |
 |Percentual de artefatos planejados concluídos por sprint| Sim |
 |Percentual de métricas coletadas| Sim |
-|Percentual de melhoria de métricas| Não |
+|Percentual de melhoria de métricas| Sim |
 |Percentual de critérios de aceitação concluídos por feature| Não |
 |Percentual de histórias entregues por sprints| Sim |
 |Percentual de código testado (APP)| Não |
@@ -18,11 +18,6 @@
 |Velocity| Não |
 
 # Justificativas das não conformidades
----
-**Métrica**: Percentual de melhoria de métricas
-
-**Justificativa**: Como é referente à primeira sprint, não há como comparar com resultados anteriores.
-
 ---
 **Métrica**: Percentual de critérios de aceitação concluídos por feature
 
@@ -68,4 +63,6 @@
 
 **Justificativa**: A equipe de medição alegou que a ferramenta não estava configurada **corretamente**.
 
----
+## Auditores responsáveis
+
+* Victor Moura

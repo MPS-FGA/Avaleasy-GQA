@@ -1,4 +1,4 @@
-# Checklist - Medição (Por Sprint)
+# Checklist - Medição (Sprint 5)
 
 | Métrica | Coletada? (Sim/Não) |
 |:--:|:--:|
@@ -42,4 +42,3 @@
 
 * Bruno Matias Casas
 * Francisco Wallacy Coutinho Braz
-
